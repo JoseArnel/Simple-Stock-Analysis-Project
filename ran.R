@@ -9,6 +9,8 @@ ggplot(data=penguins) + geom_smooth(mapping=aes(x=flipper_length_mm, y=body_mass
 #ggplot(data=penguins) + geom_point(mapping = aes (x=flipper_length_m=,)
 #geom_jitter(), geom_alpha
 
+
+
 ggplot(data=diamonds) + geom_bar(mapping = aes(x=cut, fill=clarity))
 
 # facet function facet_wrap/facet_grid
