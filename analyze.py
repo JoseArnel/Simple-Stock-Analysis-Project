@@ -2,12 +2,14 @@ import csv
 import pandas as pd
 from matplotlib import pyplot as plt
 
+
+
 def analyze():
     with open('AMZN.csv', newline='') as file:
         csvreader = pd.read_csv(file)
         ma = 0
-        for row in csvreader:
-            print(int(float(row[0:])))
+        for i, row in csvreader.iterrows():
+            print(row['AdjClose'])
 
 
 # def analyze1():
@@ -20,9 +22,9 @@ def analyze():
 #             for row in csvreader:
 #                 ma += row
 
-def read():
-    data = pd.read_csv('AMZN.csv')
-    plt.plot(data.AdjClose/100)
-    plt.show()
+# def read():
+#     data = pd.read_csv('AMZN.csv')
+#     plt.plot(data.AdjClose/100)
+#     plt.show()
 
 analyze()
