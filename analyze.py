@@ -9,7 +9,7 @@ def analyze():
         csvreader = pd.read_csv(file)
         ma = 0
         for i, row in csvreader.iterrows():
-            print(row['AdjClose'])
+            print(i[0], row['AdjClose'])
 
 
 # def analyze1():
@@ -21,6 +21,7 @@ def analyze():
 #             csvreader = csv.DictReader(file1):
 #             for row in csvreader:
 #                 ma += row
+#
 
 # def read():
 #     data = pd.read_csv('AMZN.csv')
