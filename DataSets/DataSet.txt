@@ -1,0 +1,9 @@
+Deliverable:
+
+Historical Stock Data of all daily statistics related to Apple (AAPL), Amazon (AMZ), and 
+Google (GOOGL) stock trading since _, including closing price, opening price, maximum price, 
+and volume
+
+Apple: https://www.kaggle.com/datasets/tarunpaparaju/apple-aapl-historical-stock-data
+Amazon: https://www.kaggle.com/datasets/kannan1314/amazon-stock-price-all-time
+Google: https://www.kaggle.com/datasets/varpit94/google-stock-data
