@@ -2,6 +2,9 @@ import csv
 import pandas as pd
 from matplotlib import pyplot as plt
 
+# TO-DO
+# How to sum a row in Pandas
+# indicies i, i+4
 
 
 def analyze():
@@ -10,6 +13,7 @@ def analyze():
         ma = 0
         for i, row in csvreader.iterrows():
             print(i[0], row['AdjClose'])
+
 
 
 # def analyze1():
