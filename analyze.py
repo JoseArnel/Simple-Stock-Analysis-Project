@@ -6,6 +6,10 @@ from matplotlib import pyplot as plt
 # How to sum a row in Pandas
 # indicies i, i+4
 
+# PSUEDO
+# learn to interate in Pandas
+
+
 def analyze():
     df = pd.read_csv('DataSets/AMZN.csv', skipinitialspace=True)
     print(df.AdjClose)
