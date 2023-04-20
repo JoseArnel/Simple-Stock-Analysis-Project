@@ -16,7 +16,7 @@ def analyze():
 
     # with open('DataSets/AMZN.csv', newline='') as file:
     #     read = csv.reader(file)
-    #     for row in read():
+    #     for row in read()sta
     #         print(row[0])
 
 # Simple sum
@@ -34,3 +34,5 @@ def sum():
 #     plt.show()
 
 analyze()
+
+#123
